@@ -43,8 +43,8 @@ const Carousel = () => {
         <div className="w-[95%] md:w-[90%] mx-auto h-[300px] md:h-[450px] my-5 md:my-10 md:px-10 mb-20">
             <Slider {...settings} className='flex justify-center items-center'>
                 {[project1,project2,project3,project1,project2,project3].map((project, index) => (
-                    <div key={index} className='p-4'>
-                        <div className='h-[300px] transition-all duration-300 rounded-lg transform scale-90 hover:scale-95'>
+                    <div key={index} className='p-4 h-full w-full'>
+                        <div className='aspect-[4/3] transition-all duration-300 rounded-lg transform scale-90 hover:scale-95'>
                             <div className='flex justify-center items-center h-full w-full rounded-lg'>
                                 <img 
                                     src={project} 
