@@ -44,7 +44,7 @@ const Experience = () => {
         className="mb-10 text-center lg:text-left md:px-10"
       >
         <h1 className="text-white font-black text-4xl md:text-6xl lg:text-8xl -tracking-tight">
-          2 YEAR OF
+          1+ YEAR OF
         </h1>
         <h1 className="text-gray-500 font-black text-4xl md:text-6xl lg:text-8xl">
             EXPERIENCE

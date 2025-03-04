@@ -34,7 +34,7 @@ const Home = () => {
       {/* Stats Section */}
       <div className="grid grid-cols-3 gap-8 w-full max-w-2xl mx-auto lg:mx-0 my-10 lg:px-10">
         <div className="space-y-2">
-          <h3 className="text-5xl font-bold">+{useCountAnimation(2)}</h3>
+          <h3 className="text-5xl font-bold">+{useCountAnimation(1)}</h3>
           <p className="text-sm text-gray-400 uppercase tracking-wider">
             Years of<br />Experience
           
@@ -42,18 +42,18 @@ const Home = () => {
         </div>
         
         <div className="space-y-2">
-          <h3 className="text-5xl font-bold">+{useCountAnimation(15)}</h3>
+          <h3 className="text-5xl font-bold">+{useCountAnimation(5)}</h3>
           <p className="text-sm text-gray-400 uppercase tracking-wider">
             Projects<br />Completed
           </p>
         </div>
         
-        <div className="space-y-2">
+        {/* <div className="space-y-2">
           <h3 className="text-5xl font-bold">+{useCountAnimation(3)}</h3>
           <p className="text-sm text-gray-400 uppercase tracking-wider">
             Worldwide<br />Clients
           </p>
-        </div>
+        </div> */}
       </div>
       <Projects/>
       <Carousel/>
